@@ -13,6 +13,16 @@ sudo  pip install --upgrade setuptools
 sudo pip install --upgrade virtualenv
 ```
 
+## Ubuntu Instructions
+```bash
+sudo apt-get update
+sudo apt-get install git libpng-dev libcurl4 libcurl4-openssl-dev  gcc python-dev libjpeg-dev  python-pip python-dev build-essential 
+# Updating pip on ubuntu breaks things 
+ #pip install --upgrade pip
+sudo  pip install --upgrade setuptools
+sudo pip install --upgrade virtualenv
+```
+
 ## Building Lambda Package
 ```bash
 cd deployment
